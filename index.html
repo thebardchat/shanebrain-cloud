@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShaneBrain — Local AI for the 800M Left Behind</title>
+  <meta name="description" content="A one-man AI infrastructure built in Hazel Green, Alabama. Running on a Raspberry Pi 5. Serving the people no one else is building for.">
+  <meta property="og:title" content="ShaneBrain — Local AI for the 800M Left Behind">
+  <meta property="og:description" content="A one-man AI infrastructure built in Hazel Green, Alabama.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="ShaneBrain">SB</a>
+      <ul class="nav-links">
+        <li><a href="#brain">Brain</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="section-label reveal">SHANEBRAIN // EST. 2024</span>
+        <h1 class="reveal" data-delay="1">Local AI<br><em>for the 800M</em><br>left behind.</h1>
+        <p class="hero-sub reveal" data-delay="2">A one-man AI infrastructure built in Hazel Green, Alabama. Running on a Raspberry Pi 5. Serving the people no one else is building for.</p>
+        <div class="hero-ctas reveal" data-delay="3">
+          <a href="#stack" class="btn btn-outline">Explore the Stack →</a>
+          <a href="#projects" class="btn btn-red">View Projects →</a>
+        </div>
+      </div>
+      <div class="hero-canvas-wrap" aria-hidden="true"></div>
+    </div>
+    <div class="annotation">PI-5 // 16GB // RAID-1 // 44 TOOLS</div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects has-annotation" id="projects">
+    <div class="container">
+      <span class="section-label reveal">THE WORK</span>
+      <h2 class="reveal" data-delay="1">Built from scratch.<br>Shipped.</h2>
+      <div class="card-grid">
+
+        <article class="project-card reveal" data-delay="1">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <h3>BGKPJR Launch Vis</h3>
+            <p>NASA-ready 3D orbital simulation. Maglev launch architecture attacking the cost of getting to orbit.</p>
+            <div class="card-tags">
+              <span class="tag">Three.js</span>
+              <span class="tag">Astro</span>
+              <span class="tag">Svelte</span>
+            </div>
+          </div>
+          <a href="https://thebardchat.github.io/BGKPJR-Launch-Vis" class="card-link" target="_blank" rel="noopener">View →</a>
+        </article>
+
+        <article class="project-card reveal" data-delay="2">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <h3>Artemis Program</h3>
+            <p>A technical tribute to NASA's Artemis program. Built for the engineers who made it happen.</p>
+            <div class="card-tags">
+              <span class="tag">Vanilla JS</span>
+              <span class="tag">Canvas</span>
+            </div>
+          </div>
+          <a href="https://thebardchat.github.io/artemis/" class="card-link" target="_blank" rel="noopener">View →</a>
+        </article>
+
+        <article class="project-card reveal" data-delay="3">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <h3>Manna Pods</h3>
+            <p>Unmanned cargo pod concepts for lunar resupply. $200/kg target. Designed around BGKPJR launch architecture.</p>
+            <div class="card-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+          <a href="https://thebardchat.github.io/manna-pods" class="card-link" target="_blank" rel="noopener">View →</a>
+        </article>
+
+        <article class="project-card reveal" data-delay="1">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <h3>BGKPJR Stage 1</h3>
+            <p>Coilgun cross-section deep dive. Full specs, muzzle seal, nose cone — the engineering behind Stage 1.</p>
+            <div class="card-tags">
+              <span class="tag">Three.js</span>
+              <span class="tag">Canvas</span>
+            </div>
+          </div>
+          <a href="https://thebardchat.github.io/BGKPJR-Stage1-Tube" class="card-link" target="_blank" rel="noopener">View →</a>
+        </article>
+
+        <article class="project-card reveal" data-delay="2">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <h3>Angel Cloud</h3>
+            <p>AI wellness platform with messenger storytelling. Built for the 800 million the industry forgot about.</p>
+            <div class="card-tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">Python</span>
+              <span class="tag">Weaviate</span>
+            </div>
+          </div>
+          <span class="card-link card-link--inactive">In Production</span>
+        </article>
+
+        <article class="project-card reveal" data-delay="3">
+          <div class="card-top-bar"></div>
+          <div class="card-body">
+            <h3>Claim Cruncher</h3>
+            <p>Medical billing intake platform. Built for family. Turns an impossible system into something navigable.</p>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+            </div>
+          </div>
+          <span class="card-link card-link--inactive">In Development</span>
+        </article>
+
+      </div>
+    </div>
+    <div class="annotation">6 PROJECTS // SHIPPED // 0 FRAMEWORKS REQUIRED</div>
+  </section>
+
+  <!-- THE BRAIN -->
+  <section class="brain has-annotation" id="brain">
+    <div class="container">
+      <span class="section-label reveal">MEGA DASHBOARD</span>
+      <div class="editorial-grid">
+
+        <div class="brain-left">
+          <h2 class="reveal" data-delay="1">The nerve<br>center.</h2>
+          <p class="reveal" data-delay="2">Running 24/7 on a Pi 5. 44 AI tools. 25 Weaviate collections. A crew of bots with names, personalities, and purpose. This is not a demo — it's a living system.</p>
+          <div class="brain-stats reveal" data-delay="3">
+            <div class="stat">
+              <span class="stat-num">44</span>
+              <span class="stat-label">Tools</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">25</span>
+              <span class="stat-label">Collections</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">17</span>
+              <span class="stat-label">Bots</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="terminal reveal" data-delay="2" aria-label="System status terminal">
+          <div class="terminal-bar">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-amber"></span>
+            <span class="terminal-dot dot-green"></span>
+            <span class="terminal-title">shanebrain — system status</span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line">
+              <span class="t-prompt">$</span>
+              <span class="t-cmd">shanebrain status --all</span>
+            </div>
+            <div class="terminal-line t-blank"></div>
+            <div class="terminal-line">
+              <span class="t-key">SYSTEM  </span>
+              <span class="t-ok">● ONLINE</span>
+              <span>Pi 5 / 16GB RAM</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-key">WEAVIATE</span>
+              <span class="t-ok">● ONLINE</span>
+              <span>neworleans:8080</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-key">MCP     </span>
+              <span class="t-ok">● ONLINE</span>
+              <span>localhost:8100</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-key">DASHBOARD</span>
+              <span class="t-ok">● ONLINE</span>
+              <span>localhost:8300</span>
+            </div>
+            <div class="terminal-line t-blank"></div>
+            <div class="terminal-line">
+              <span class="t-section">BOT CREW // 17 ACTIVE</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-bot">ARC   </span>
+              <span>RUNNING&nbsp;&nbsp; social analyst</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-bot">BLAZE </span>
+              <span>RUNNING&nbsp;&nbsp; content engine</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-bot">SPARKY</span>
+              <span>RUNNING&nbsp;&nbsp; discord relay</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-bot">FLUX  </span>
+              <span>RUNNING&nbsp;&nbsp; market watch</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-bot">TORCH </span>
+              <span>RUNNING&nbsp;&nbsp; story engine</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-bot">SPIKE </span>
+              <span>RUNNING&nbsp;&nbsp; IQ tracker</span>
+            </div>
+            <div class="terminal-line t-blank"></div>
+            <div class="terminal-line">
+              <span class="t-key">UPTIME  </span>
+              <span class="t-uptime" id="uptime-display">calculating...</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-key">SOBRIETY</span>
+              <span class="t-sober" id="terminal-sober">DAY —</span>
+            </div>
+            <div class="terminal-line t-blank"></div>
+            <span class="terminal-cursor">█</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="annotation">WEAVIATE // MCP // HAIKU // RAID-1</div>
+  </section>
+
+  <!-- THE STACK -->
+  <section class="stack" id="stack">
+    <div class="container">
+      <span class="section-label reveal">INFRASTRUCTURE</span>
+      <h2 class="reveal" data-delay="1">One Pi. One RAID.<br>The whole world.</h2>
+      <div class="stack-diagram reveal" data-delay="2">
+        <div class="stack-scroll">
+
+          <div class="stack-node node-center">
+            <div class="node-icon">⬡</div>
+            <div class="node-label">Pi 5</div>
+            <div class="node-sub">16GB // Controller</div>
+            <div class="node-status status-green"></div>
+          </div>
+
+          <div class="stack-connector"><div class="connector-line"></div></div>
+
+          <div class="stack-node">
+            <div class="node-icon">◈</div>
+            <div class="node-label">Weaviate</div>
+            <div class="node-sub">neworleans:8080</div>
+            <div class="node-status status-green"></div>
+          </div>
+
+          <div class="stack-connector"><div class="connector-line"></div></div>
+
+          <div class="stack-node">
+            <div class="node-icon">⬡</div>
+            <div class="node-label">MCP Server</div>
+            <div class="node-sub">44 tools // :8100</div>
+            <div class="node-status status-green"></div>
+          </div>
+
+          <div class="stack-connector"><div class="connector-line"></div></div>
+
+          <div class="stack-node">
+            <div class="node-icon">◈</div>
+            <div class="node-label">Mega Dashboard</div>
+            <div class="node-sub">17 bots // :8300</div>
+            <div class="node-status status-green"></div>
+          </div>
+
+          <div class="stack-connector"><div class="connector-line"></div></div>
+
+          <div class="stack-node">
+            <div class="node-icon">⬡</div>
+            <div class="node-label">Angel Cloud</div>
+            <div class="node-sub">FastAPI // :4200</div>
+            <div class="node-status status-green"></div>
+          </div>
+
+          <div class="stack-connector"><div class="connector-line"></div></div>
+
+          <div class="stack-node">
+            <div class="node-icon">◈</div>
+            <div class="node-label">GitHub</div>
+            <div class="node-sub">thebardchat</div>
+            <div class="node-status status-amber"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE MISSION -->
+  <section class="mission" id="about">
+    <div class="container">
+      <span class="section-label reveal">THE MISSION</span>
+      <h2 class="reveal" data-delay="1"><em>Built for the<br>800 million.</em></h2>
+      <p class="mission-body reveal" data-delay="2">Most AI is built for people who already have everything. ShaneBrain is built for the dispatcher, the single parent, the kid in rural Alabama who doesn't know they're a builder yet. Faith. Family. Sobriety. Code.</p>
+      <p class="mission-credit reveal" data-delay="3">Shane Brazelton + Claude (Anthropic) — Hazel Green, Alabama · 2026</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">SB</span>
+        <span class="footer-sober" id="footer-sober">DAY —</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#brain">Brain</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="https://github.com/thebardchat" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <div class="footer-right">
+        <a href="https://claude.ai/referral/4fAMYN9Ing" class="referral-badge" target="_blank" rel="noopener">
+          Built with Claude (Anthropic)
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
