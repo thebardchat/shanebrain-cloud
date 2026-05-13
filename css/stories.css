@@ -1,0 +1,200 @@
+/* ============================================================
+   STORIES PAGE — Episode feed and reader
+   ============================================================ */
+
+.stories-section { padding-top: 0; border-top: none; }
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  padding-bottom: var(--section-pad);
+}
+
+/* ---- EPISODE CARD ---- */
+.episode-card {
+  background: var(--navy-mid);
+  border: 1px solid rgba(244,237,228,0.08);
+  border-left: 3px solid var(--red);
+  padding: 24px;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+  border-left-color: var(--amber);
+}
+
+.ep-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ep-num {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.ep-date {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: rgba(244,237,228,0.3);
+}
+
+.ep-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--bone);
+}
+
+.ep-excerpt {
+  font-size: 0.85rem;
+  color: var(--bone-dim);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ep-characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.ep-char-tag {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid rgba(244,237,228,0.12);
+  color: var(--bone-dim);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.episode-card:hover .ep-char-tag {
+  border-color: rgba(255,176,0,0.25);
+  color: var(--bone);
+}
+
+.ep-read-hint {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--amber);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.episode-card:hover .ep-read-hint { opacity: 1; }
+
+/* ---- EPISODE MODAL ---- */
+.episode-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.episode-modal.open {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.episode-modal .modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10,14,26,0.88);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.ep-modal-inner {
+  position: relative;
+  z-index: 1;
+  background: var(--navy-mid);
+  border: 1px solid rgba(244,237,228,0.15);
+  border-top: 3px solid var(--red);
+  width: min(760px, 92vw);
+  max-height: 82vh;
+  overflow-y: auto;
+  padding: 48px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244,237,228,0.1) transparent;
+}
+
+@media (max-width: 600px) { .ep-modal-inner { padding: 28px 20px; } }
+
+.ep-modal-header { margin-bottom: 2rem; }
+
+.ep-modal-num {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.ep-modal-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.ep-modal-chars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ep-modal-body {
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: var(--bone-dim);
+  white-space: pre-wrap;
+  max-width: 65ch;
+}
+
+.ep-modal-body p { margin-bottom: 1.2rem; max-width: none; }
+
+.ep-coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.ep-coming-soon .section-label { display: inline-block; }
+
+.ep-coming-soon p {
+  color: var(--bone-dim);
+  font-size: 0.9rem;
+  max-width: 40ch;
+  margin-inline: auto;
+}

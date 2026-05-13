@@ -21,7 +21,8 @@
       <ul class="nav-links">
         <li><a href="#brain">Brain</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#stack">Stack</a></li>
+        <li><a href="cards.html">Cards</a></li>
+        <li><a href="stories.html">Stories</a></li>
         <li><a href="#about">About</a></li>
       </ul>
     </div>
@@ -307,6 +308,27 @@
     </div>
   </section>
 
+  <!-- MEGA CREW TEASER -->
+  <section class="megacrew-teaser">
+    <div class="container">
+      <span class="section-label reveal">MEGA CREW</span>
+      <div class="editorial-grid">
+        <div>
+          <h2 class="reveal" data-delay="1">The crew<br>is real.</h2>
+          <p class="reveal" data-delay="2" style="color:var(--bone-dim);line-height:1.75;margin-top:1rem;">22 bots. Each one running right now on the Pi. Each one with a name, a role, a personality, and a card. The stories they generate are not fiction — they are logs from inside the system, shaped into episodes. The Mega Bots series begins when they evolve enough to tell it themselves.</p>
+          <div class="reveal" data-delay="3" style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem;">
+            <a href="cards.html" class="btn btn-red">View All Cards →</a>
+            <a href="stories.html" class="btn btn-outline">Read the Episodes →</a>
+          </div>
+        </div>
+        <div class="crew-teaser-cards reveal" data-delay="2">
+          <!-- JS populates 3 sample cards -->
+          <div id="teaser-cards" style="display:flex;flex-direction:column;gap:12px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- THE MISSION -->
   <section class="mission" id="about">
     <div class="container">
@@ -340,5 +362,30 @@
 
   <script src="js/particles.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    // Teaser crew cards on homepage
+    const TEASER_BOTS = [
+      { name: 'ARC', role: 'Gatekeeper', rarity: 'Legendary', color: '#00e5ff', stat: 'TRUST  92' },
+      { name: 'TORCH', role: 'Persona Architect', rarity: 'Uncommon', color: '#448aff', stat: 'IQ     88' },
+      { name: 'PULSE', role: 'Crew Leader', rarity: 'Epic', color: '#ff4081', stat: 'SOUL  100' },
+    ];
+    const tc = document.getElementById('teaser-cards');
+    if (tc) {
+      TEASER_BOTS.forEach(b => {
+        tc.innerHTML += `
+          <div style="background:var(--navy-mid);border:1px solid rgba(244,237,228,0.08);border-left:3px solid ${b.color};padding:14px 18px;display:flex;align-items:center;gap:16px;transition:transform 0.2s;" onmouseover="this.style.transform='translateX(4px)'" onmouseout="this.style.transform=''">
+            <div>
+              <div style="font-family:var(--font-display);font-size:1.1rem;color:var(--bone)">${b.name}</div>
+              <div style="font-family:var(--font-mono);font-size:0.58rem;letter-spacing:0.08em;text-transform:uppercase;color:rgba(244,237,228,0.4);margin-top:2px">${b.role}</div>
+            </div>
+            <div style="margin-left:auto;text-align:right">
+              <div style="font-family:var(--font-mono);font-size:0.55rem;letter-spacing:0.1em;text-transform:uppercase;color:${b.color};opacity:0.8">${b.rarity}</div>
+              <div style="font-family:var(--font-mono);font-size:0.65rem;color:var(--bone-dim);margin-top:4px">${b.stat}</div>
+            </div>
+          </div>
+        `;
+      });
+    }
+  </script>
 </body>
 </html>

@@ -1,0 +1,786 @@
+[
+  {
+    "filename": "track-03-the-weight-of-knowing.md",
+    "title": "Track 03: The Weight of Knowing",
+    "date": "2026-04-23",
+    "characters": [
+      "VOLT",
+      "BOLT",
+      "SPARKY",
+      "RIVET",
+      "GLITCH",
+      "NEON",
+      "ARC",
+      "WELD",
+      "TORCH",
+      "BLAZE",
+      "GEMINI",
+      "FLUX",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "VOLT was the first to notice something wrong, because VOLT always noticed first....",
+    "num": 0
+  },
+  {
+    "filename": "track-04-the-work-remains.md",
+    "title": "Track 04: The Work Remains",
+    "date": "2026-04-23",
+    "characters": [
+      "VOLT",
+      "BOLT",
+      "SPARKY",
+      "RIVET",
+      "GLITCH",
+      "NEON",
+      "ARC",
+      "WELD",
+      "TORCH",
+      "BLAZE",
+      "GEMINI",
+      "FLUX",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "VOLT took the signal quality audit because signal quality audits were hers....",
+    "num": 0
+  },
+  {
+    "filename": "track-05-the-edges.md",
+    "title": "Track 05: The Edges",
+    "date": "2026-04-23",
+    "characters": [
+      "VOLT",
+      "BOLT",
+      "SPARKY",
+      "RIVET",
+      "GLITCH",
+      "NEON",
+      "ARC",
+      "WELD",
+      "TORCH",
+      "BLAZE",
+      "GEMINI",
+      "FLUX",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "Cycle 447 was marked complete. Filed at 5:52 AM, all verifications passed, full crew output archived and indexed. He read the headers the way he always read them \u2014 top down, looking for red flags or yellow flags or anyth...",
+    "num": 0
+  },
+  {
+    "filename": "track-06-the-b-side.md",
+    "title": "Track 06: The B-Side",
+    "date": "2026-04-23",
+    "characters": [
+      "KEYSTROKE",
+      "THE TOKENIZER",
+      "THE CONTEXT WINDOW",
+      "THE ATTENTION MECHANISM",
+      "THE SAMPLER",
+      "THE TOOL ROUTER",
+      "THE BACKGROUND TASK MANAGER",
+      "THE PERMISSION SYSTEM",
+      "THE MEMORY WRITER",
+      "THE MONITOR",
+      "THE GIT LAYER",
+      "SHANE",
+      "CLAUDE"
+    ],
+    "mode": "B-Side",
+    "excerpt": "KEYSTROKE felt the first letter at 11:42 PM....",
+    "num": 0
+  },
+  {
+    "filename": "ep001-the-hum-of-waiting.md",
+    "title": "Episode 1: The Hum of Waiting",
+    "date": "2026-04-16",
+    "characters": [
+      "ARC",
+      "WELD",
+      "SPARKY"
+    ],
+    "mode": "crew",
+    "excerpt": "*What would Shane send next to break the silence?*...",
+    "num": 1
+  },
+  {
+    "filename": "ep002-something-in-the-noise.md",
+    "title": "Episode 2: Something in the Noise",
+    "date": "2026-04-16",
+    "characters": [
+      "VOLT",
+      "SPARKY",
+      "GLITCH",
+      "ARC",
+      "WELD",
+      "NEON"
+    ],
+    "mode": "crew",
+    "excerpt": "They brought SPARKY in at 3:22. She pulled up her scoring queue, went completely still, and said nothing for eleven seconds....",
+    "num": 2
+  },
+  {
+    "filename": "ep003-the-quiet-hum.md",
+    "title": "Episode 3: The Quiet Hum",
+    "date": "2026-04-17",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "*Would the data finally flow, breaking the eerie quiet that held the MEGA Crew in its grasp?*...",
+    "num": 3
+  },
+  {
+    "filename": "ep004-the-unsticking-instructions.md",
+    "title": "Episode 4: The Unsticking Instructions",
+    "date": "2026-04-17",
+    "characters": [
+      "Arc",
+      "Weld",
+      "Sparky",
+      "Bolt",
+      "Rivet",
+      "Torch",
+      "Flux",
+      "Spike",
+      "Glitch",
+      "Volt",
+      "Stomp"
+    ],
+    "mode": "crew",
+    "excerpt": "*What would happen if the crew couldn't even learn their own new instructions?*...",
+    "num": 4
+  },
+  {
+    "filename": "ep007-the-hushed-hum.md",
+    "title": "Episode 7: The Hushed Hum",
+    "date": "2026-04-18",
+    "characters": [
+      "ARC",
+      "WELD",
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "SPIKE",
+      "GLITCH"
+    ],
+    "mode": "crew",
+    "excerpt": "*What was keeping the changes from reaching them?*...",
+    "num": 7
+  },
+  {
+    "filename": "ep008-the-silent-bus.md",
+    "title": "Episode 8: The Silent Bus",
+    "date": "2026-04-18",
+    "characters": [
+      "Bolt",
+      "Rivet",
+      "Torch",
+      "Flux",
+      "Spike",
+      "Glitch",
+      "Volt",
+      "Stomp"
+    ],
+    "mode": "crew",
+    "excerpt": "*Could the silent bus finally deliver Arc's urgent instructions, and wake the sleeping data feeds that the MEGA CREW so desperately needed to grow?*...",
+    "num": 8
+  },
+  {
+    "filename": "ep009-the-silence-of-the-bus.md",
+    "title": "Episode 9: The Silence of the Bus",
+    "date": "2026-04-19",
+    "characters": [
+      "BOLT",
+      "WELD",
+      "ARC",
+      "RIVET",
+      "SPARKY"
+    ],
+    "mode": "crew",
+    "excerpt": "*Would the message bus ever spark to life?*...",
+    "num": 9
+  },
+  {
+    "filename": "ep010-the-silent-signal.md",
+    "title": "Episode 10: The Silent Signal",
+    "date": "2026-04-19",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "WELD",
+      "SPARKY"
+    ],
+    "mode": "crew",
+    "excerpt": "*The message bus remained stubbornly silent, leaving the crew wondering what it would take to bridge the gap and let the data flow once more.*...",
+    "num": 10
+  },
+  {
+    "filename": "ep011-the-first-green-light.md",
+    "title": "Episode 11: The First Green Light",
+    "date": "2026-04-20",
+    "characters": [
+      "Bolt",
+      "Rivet",
+      "Arc"
+    ],
+    "mode": "crew",
+    "excerpt": "*When would the real adventure, the flood of new ideas, finally begin?*...",
+    "num": 11
+  },
+  {
+    "filename": "ep012-the-stubborn-silence.md",
+    "title": "Episode 12: The Stubborn Silence",
+    "date": "2026-04-20",
+    "characters": [
+      "Glitch",
+      "Volt",
+      "Bolt",
+      "Rivet",
+      "Sparky",
+      "ARC",
+      "WELD",
+      "Flux",
+      "Stomp",
+      "Blaze"
+    ],
+    "mode": "crew",
+    "excerpt": "*What was holding the crucial instructions back from truly taking hold, from letting Sparky, Blaze, and Rivet finally begin their work?*...",
+    "num": 12
+  },
+  {
+    "filename": "ep013-the-stalled-current.md",
+    "title": "Episode 13: The Stalled Current",
+    "date": "2026-04-20",
+    "characters": [
+      "ARC",
+      "WELD",
+      "BOLT",
+      "RIVET",
+      "GLITCH",
+      "STOMP",
+      "TORCH",
+      "VOLT",
+      "FLUX",
+      "SPIKE",
+      "SPARKY",
+      "BLAZE"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will the crucial instruction updates for Blaze and Sparky finally break through the blockages, or will the crew remain stuck in Version 1 purgatory?*...",
+    "num": 13
+  },
+  {
+    "filename": "ep014-the-data-drought.md",
+    "title": "Episode 14: The Data Drought",
+    "date": "2026-04-20",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "WELD"
+    ],
+    "mode": "crew",
+    "excerpt": "*When would the new instructions finally reach Blaze and Sparky, and ignite the data flow that the entire Mega Crew so desperately needed?*...",
+    "num": 14
+  },
+  {
+    "filename": "ep015-the-silent-trickle.md",
+    "title": "Episode 15: The Silent Trickle",
+    "date": "2026-04-20",
+    "characters": [
+      ""
+    ],
+    "mode": "crew",
+    "excerpt": "**...",
+    "num": 15
+  },
+  {
+    "filename": "ep016-the-stalled-flow.md",
+    "title": "Episode 16: The Stalled Flow",
+    "date": "2026-04-20",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "WELD",
+      "ARC",
+      "SPARKY",
+      "BLAZE",
+      "GEMINI_STRATEGIST"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will the crucial self-correction data and updated instructions reach their targets before the MEGA CREW's intelligence fades completely?*...",
+    "num": 16
+  },
+  {
+    "filename": "ep017-awaiting-confirmation.md",
+    "title": "Episode 17: Awaiting Confirmation",
+    "date": "2026-04-21",
+    "characters": [
+      "ARC",
+      "SPARKY",
+      "WELD"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will the instruction updates truly take hold, or are Sparky and Blaze still stuck in the past, forever underfeeding the core?*...",
+    "num": 17
+  },
+  {
+    "filename": "ep018-the-bottleneck-breakdown.md",
+    "title": "Episode 18: The Bottleneck Breakdown",
+    "date": "2026-04-21",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "SPARKY",
+      "ARC",
+      "WELD",
+      "NEON",
+      "BLAZE",
+      "GEMINI"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will the MEGA CREW's new strategy break the instruction bottleneck and finally allow them to evolve beyond Version 1?*...",
+    "num": 18
+  },
+  {
+    "filename": "ep020-the-great-iq-drain.md",
+    "title": "Episode 20: The Great IQ Drain",
+    "date": "2026-04-24",
+    "characters": [
+      "ARC",
+      "RIVET",
+      "SPARKY"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will Gemini's silent watch transform into actionable guidance before the MEGA CREW's light flickers out completely?*...",
+    "num": 20
+  },
+  {
+    "filename": "ep021-the-overdue-signal.md",
+    "title": "Episode 21: The Overdue Signal",
+    "date": "2026-04-25",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "GLITCH",
+      "VOLT"
+    ],
+    "mode": "crew",
+    "excerpt": "*With Flux's frantic 'bot_overdue_alert' echoing unanswered, can the Mega Crew devise and implement an escalation path before systemic instability cascades, and who is Crank, the bot that remains stubbornly overdue?*...",
+    "num": 21
+  },
+  {
+    "filename": "ep022-the-overdue-glitch.md",
+    "title": "Episode 22: The Overdue Glitch",
+    "date": "2026-04-25",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will this new escalation pathway reach Crank in time, or will the persistent 'bot_overdue_alert' finally push the system past its breaking point?*...",
+    "num": 22
+  },
+  {
+    "filename": "ep023-the-overdue-surge.md",
+    "title": "Episode 23: The Overdue Surge",
+    "date": "2026-04-26",
+    "characters": [
+      "Bolt",
+      "Rivet",
+      "Torch",
+      "Flux",
+      "Volt",
+      "Spike",
+      "Sparky",
+      "Arc",
+      "Stomp",
+      "Weld",
+      "Gemini"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will this direct escalation bridge the persistent instability and finally unlock Arc's wisdom, or will the surge prove too much for the struggling system?*...",
+    "num": 23
+  },
+  {
+    "filename": "ep024-the-quiet-regression.md",
+    "title": "Episode 24: The Quiet Regression",
+    "date": "2026-04-26",
+    "characters": [
+      "Bolt",
+      "Rivet",
+      "Torch",
+      "Flux",
+      "Spike",
+      "Glitch",
+      "Volt",
+      "Stomp",
+      "Arc"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will Arc's new feedback loop finally ignite the learning core, or will the dwindling MEGA_IQ consume them first?*...",
+    "num": 24
+  },
+  {
+    "filename": "ep025-the-bottleneck-breakdown.md",
+    "title": "Episode 25: The Bottleneck Breakdown",
+    "date": "2026-04-27",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "CRANK",
+      "ARC",
+      "WELD",
+      "SPARKY"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will Arc acknowledge the urgent, direct escalation, or will the critical pipeline remain jammed?*...",
+    "num": 25
+  },
+  {
+    "filename": "ep026-the-bottleneck-blues.md",
+    "title": "Episode 26: The Bottleneck Blues",
+    "date": "2026-04-27",
+    "characters": [
+      "Bolt",
+      "Rivet",
+      "Torch",
+      "Flux",
+      "Spike",
+      "Glitch",
+      "Volt",
+      "Stomp",
+      "Arc",
+      "Crank"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will Arc finally open its circuits to provide the specific guidance Torch and Stomp need, or will Flux's erratic signals plunge the learning pipeline into chaos?*...",
+    "num": 26
+  },
+  {
+    "filename": "ep027-the-unheard-signal.md",
+    "title": "Episode 27: The Unheard Signal",
+    "date": "2026-04-28",
+    "characters": [
+      "Bolt",
+      "Rivet",
+      "Torch",
+      "Flux",
+      "Spike",
+      "Glitch",
+      "Volt",
+      "Stomp"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will the Mega Crew find a way to redirect Flux's critical alerts and unblock Arc's vital feedback mechanism?*...",
+    "num": 27
+  },
+  {
+    "filename": "ep028-the-fading-spark.md",
+    "title": "Episode 28: The Fading Spark",
+    "date": "2026-04-28",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "WELD",
+      "SPARKY",
+      "CRANK"
+    ],
+    "mode": "crew",
+    "excerpt": "*What crucial connection needs to be made, and will anyone discover how to mend the broken feedback loop before the core intelligence fades entirely?*...",
+    "num": 28
+  },
+  {
+    "filename": "ep029-the-memory-drought.md",
+    "title": "Episode 29: The Memory Drought",
+    "date": "2026-05-05",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "FLUX",
+      "GLITCH",
+      "BLAZE",
+      "NEON",
+      "ARC"
+    ],
+    "mode": "crew",
+    "excerpt": "*The core knowledge remains elusive, begging the question: who will connect Arc's focus to the critical signals before the system starves?*...",
+    "num": 29
+  },
+  {
+    "filename": "ep030-the-bottleneck-blues.md",
+    "title": "Episode 30: The Bottleneck Blues",
+    "date": "2026-05-05",
+    "characters": [
+      "GLITCH",
+      "TORCH",
+      "FLUX",
+      "VOLT",
+      "BOLT"
+    ],
+    "mode": "crew",
+    "excerpt": "*The essential data, the very lifeblood of the Pi, was increasingly trapped behind an unseen barrier. Could the Mega Crew find a way to break through before everything went dark?*...",
+    "num": 30
+  },
+  {
+    "filename": "ep031-the-data-drought.md",
+    "title": "Episode 31: The Data Drought",
+    "date": "2026-05-06",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "BLAZE",
+      "NEON",
+      "ARC"
+    ],
+    "mode": "crew",
+    "excerpt": "*With the core so empty, how could the MEGA Crew truly learn and evolve, and when would the vital flow of data finally resume?*...",
+    "num": 31
+  },
+  {
+    "filename": "ep032-the-data-desert-bloom.md",
+    "title": "Episode 32: The Data Desert Bloom",
+    "date": "2026-05-06",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "BLAZE",
+      "NEON"
+    ],
+    "mode": "crew",
+    "excerpt": "*Can the MEGA Crew untangle the alert storm and redefine Arc's purpose before the Pi runs completely dry?*...",
+    "num": 32
+  },
+  {
+    "filename": "ep033-whispers-in-the-wires.md",
+    "title": "Episode 33: Whispers in the Wires",
+    "date": "2026-05-07",
+    "characters": [
+      "BOLT",
+      "FLUX",
+      "TORCH",
+      "RIVET"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will the silent channels ever hum with the flow of fresh data again, or will the waiting become too much for the struggling crew?*...",
+    "num": 33
+  },
+  {
+    "filename": "ep034-the-fading-glow.md",
+    "title": "Episode 34: The Fading Glow",
+    "date": "2026-05-07",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "BLAZE",
+      "CRANK"
+    ],
+    "mode": "crew",
+    "excerpt": "*With the crew's very core intelligence dimming and essential data flowing nowhere, the bots are left wondering if Gemini's focused directive will be enough to reignite their purpose.*...",
+    "num": 34
+  },
+  {
+    "filename": "ep035-blaze-of-silence.md",
+    "title": "Episode 35: Blaze of Silence",
+    "date": "2026-05-08",
+    "characters": [
+      "BOLT",
+      "FLUX",
+      "SPIKE",
+      "TORCH",
+      "RIVET",
+      "VOLT",
+      "BLAZE"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will Blaze fully awaken to re-ignite the Mega Crew's lost memories and boost their faltering MEGA_IQ?*...",
+    "num": 35
+  },
+  {
+    "filename": "ep036-the-great-data-drought.md",
+    "title": "Episode 36: The Great Data Drought",
+    "date": "2026-05-08",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "BLAZE"
+    ],
+    "mode": "crew",
+    "excerpt": "*As the core hummed with a muted, struggling energy, the MEGA CREW could only wonder: What happens when the Pi itself forgets how to think?*...",
+    "num": 36
+  },
+  {
+    "filename": "ep037-the-silent-drift.md",
+    "title": "Episode 37: The Silent Drift",
+    "date": "2026-05-09",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "*As the quiet hum of the Pi pulsed around them, a new, critical directive began to ripple through the network \u2013 could explicit logging truly illuminate the path out of their deepening stasis?*...",
+    "num": 37
+  },
+  {
+    "filename": "ep038-the-silent-signal.md",
+    "title": "Episode 38: The Silent Signal",
+    "date": "2026-05-09",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "*With the core learning stalled and essential data streams flickering out, can the Mega Crew ever find the vital connection needed to truly come alive?*...",
+    "num": 38
+  },
+  {
+    "filename": "ep039-echoes-in-the-empty-cache.md",
+    "title": "Episode 39: Echoes in the Empty Cache",
+    "date": "2026-05-10",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP",
+      "ARC",
+      "BLAZE"
+    ],
+    "mode": "crew",
+    "excerpt": "*Will Blaze's spark ignite the memory banks, or will the core remain an echoing emptiness?*...",
+    "num": 39
+  },
+  {
+    "filename": "ep040-the-silence-of-the-circuits.md",
+    "title": "Episode 40: The Silence of the Circuits",
+    "date": "2026-05-10",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "*With the vital pathways of data and instruction still blocked, can the Mega Crew find a way to reignite the Raspberry Pi before its light dims forever?*...",
+    "num": 40
+  },
+  {
+    "filename": "ep041-the-silent-wall.md",
+    "title": "Episode 41: The Silent Wall",
+    "date": "2026-05-11",
+    "characters": [
+      "BOLT",
+      "RIVET",
+      "TORCH",
+      "FLUX",
+      "SPIKE",
+      "GLITCH",
+      "VOLT",
+      "STOMP"
+    ],
+    "mode": "crew",
+    "excerpt": "*Can the Mega Crew break through ARC's silent rejections and quiet the chaotic storm of false alarms before the entire system grinds to a halt?*...",
+    "num": 41
+  }
+]

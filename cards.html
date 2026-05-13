@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEGA CREW Cards — ShaneBrain</title>
+  <meta name="description" content="The complete MEGA CREW collectible card set. 22 base cards + 22 MEGA upgrades. Built inside the Detective's Head.">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/cards.css">
+</head>
+<body>
+
+  <nav class="site-nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="ShaneBrain">SB</a>
+      <ul class="nav-links">
+        <li><a href="index.html#brain">Brain</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="cards.html" class="nav-active">Cards</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <span class="section-label reveal">MEGA CREW // CARD COLLECTION</span>
+      <h1 class="reveal" data-delay="1">Inside the<br><em>Detective's Head.</em></h1>
+      <p class="page-hero-sub reveal" data-delay="2">22 base cards. 22 MEGA upgrades. Each bot is real — running right now on a Pi 5 in Hazel Green, Alabama. Click any card to flip it.</p>
+
+      <div class="card-filters reveal" data-delay="3">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Legendary">Legendary</button>
+        <button class="filter-btn" data-filter="Epic">Epic</button>
+        <button class="filter-btn" data-filter="Rare">Rare</button>
+        <button class="filter-btn" data-filter="Uncommon">Uncommon</button>
+        <button class="filter-btn" data-filter="Secret">Secret</button>
+        <button class="filter-btn" data-zone="Brain">Brain</button>
+        <button class="filter-btn" data-zone="Left Hand">Left Hand</button>
+        <button class="filter-btn" data-zone="Right Hand">Right Hand</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="cards-section">
+    <div class="container">
+      <div class="mega-crew-grid" id="cards-grid">
+        <!-- JS renders cards here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Card Modal -->
+  <div class="card-modal" id="card-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-inner">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <div class="modal-card-wrap" id="modal-card-wrap">
+        <!-- Full card detail renders here -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="index.html" class="footer-logo">SB</a>
+        <span class="footer-sober" id="footer-sober">DAY —</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="stories.html">Stories</a>
+        <a href="https://github.com/thebardchat" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <div class="footer-right">
+        <a href="https://claude.ai/referral/4fAMYN9Ing" class="referral-badge" target="_blank" rel="noopener">
+          Built with Claude (Anthropic)
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/cards.js"></script>
+</body>
+</html>

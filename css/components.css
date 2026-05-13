@@ -450,6 +450,9 @@
   line-height: 1;
 }
 
+/* ---- MEGA CREW TEASER ---- */
+.megacrew-teaser { background: var(--navy-light); }
+
 /* ---- THE MISSION ---- */
 .mission {
   background: var(--navy-light);
